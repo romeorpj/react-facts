@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+  /* resetting font size to 10px makes rem math much easier*/
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+/*Set secting heading font*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-color: #282d35;
+}
+
+P,
+li {
+  font-size: 1.6rem;
+}
+
+/* A elements that don't have a class get default styles */
+/* a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+} */
+a {
+  text-decoration: none;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  /* *,
+   *::before,
+   *::after {
+   	animation-duration: 0.01ms !important;
+   	animation-iteration-count: 1 !important;
+   	transition-duration: 0.01ms !important;
+   	scroll-behavior: auto !important;
+   } */
+}
+/* ########## END GLOBAL ########## */
+/*# sourceMappingURL=styles.css.map */
+nav {
+  background-color: #21222a;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  padding: 40px;
+  margin-bottom: 65px;
+}
+
+nav > h1 {
+  margin-right: auto;
+  color: #00d8ff;
+  margin-left: 5px;
+  font-size: 22px;
+  padding-right: 15px;
+}
+
+nav > p {
+  color: #deebf8;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+main h2 {
+  font-size: 39px;
+  color: white;
+  margin-bottom: 30px;
+}
+main ul > li {
+  color: white;
+  list-style: disc;
+}
+main ul > li::marker {
+  color: #61dafb;
+  font-size: 25px;
+}
+main ul > li {
+  margin-left: 50px;
+  padding-left: 25px;
+}
+main ul > li:not(ul > li:last-of-type) {
+  margin-bottom: 20px;
+}
+main .main-big-logo {
+  position: absolute;
+  right: 0;
+  top: 300px;
+}/*# sourceMappingURL=styles.css.map */

@@ -146,12 +146,16 @@ main {
 		margin-bottom: 20px;
 	}
 
-	.main-big-logo {
-		position: absolute;
-		right: 0;
-		top: 300px;
-	}
+	
+		// position: absolute;
+		// background-image: url("../img/reactjs-icon 2.png");
+		// background-repeat: no-repeat;
+		// background-position: center right;
+		// top: 300px;
+		// z-index: 0;
+	
 }
+
 // main > h2{
 //     font-size: 39px;
 //     color: white;
@@ -179,3 +183,12 @@ main {
 // main ul > li:not(main ul > li:last-of-type){
 // margin-bottom: 20px;
 // }
+
+
+
+.big-logo-img{
+	position: absolute;
+		top: 300px;
+		z-index: -1;
+		right: 0;
+}

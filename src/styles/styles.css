@@ -130,8 +130,10 @@ main ul > li {
 main ul > li:not(ul > li:last-of-type) {
   margin-bottom: 20px;
 }
-main .main-big-logo {
+
+.big-logo-img {
   position: absolute;
-  right: 0;
   top: 300px;
+  z-index: -1;
+  right: 0;
 }/*# sourceMappingURL=styles.css.map */

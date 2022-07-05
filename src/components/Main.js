@@ -1,5 +1,5 @@
 import React from "react";
-import BigLogo from "../img/reactjs-icon 2.png";
+// import BigLogo from "../img/reactjs-icon 2.png";
 
 let Main = () => {
 	return (
@@ -12,7 +12,7 @@ let Main = () => {
 				<li>Is maintained by Facebook</li>
 				<li>Powers thousands of enterprise apps, including mobile apps</li>
 			</ul>
-			<img src={BigLogo} alt="big logo 2 main" className="main-big-logo"/>
+		
 		</main>
 	);
 };
